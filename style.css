@@ -26,6 +26,7 @@ article {
 
 .cel img {
     height: 600px;
+    justify-items: end;
 }
 
 .login {
@@ -41,7 +42,7 @@ article {
     border: 1px solid rgb(224, 224, 224);
     background-color: #fff;
     width: 80%;
-    min-width: 350px;
+    min-width: 320px;
     max-width: 390px;
 }
 
@@ -84,14 +85,14 @@ form input {
 }
 
 .our div {
+    color: #818181;
     width: 30%;
     margin: 0 auto;
 }
 
 .tab {
-    margin: 0 auto;
-    width: auto;
     height: 1px;
+    background-color: rgb(224, 224, 224);
 }
 
 .facebook {
@@ -121,8 +122,12 @@ form input {
     padding: 4% 0;
 }
 
+.imgs {
+    display: flex;
+}
+
 .imgs img {
-    margin-top: -30px;
+    margin: 10px 2px;
     width: 150px;
     min-width: 70px;
 }
@@ -154,38 +159,12 @@ footer select {
     outline: 0;
 }
 
-@media only screen and (max-width: 1450px) {
-    .cel {
-        margin-left: -50px;
-    }
-}
-
-@media only screen and (max-width: 1250px) {
-    .cel {
-        margin-left: -100px;
-    }
-}
-
-@media only screen and (max-width: 1150px) {
-    .cel {
-        margin-left: -150px;
-    }
-}
-
-@media only screen and (max-width: 1050px) {
-    .cel {
-        margin-left: -200px;
-    }
-}
-
 @media only screen and (max-width: 980px) {
     .cel {
         display: none;
     }
-    .imgs {
-    }
+
     .imgs img {
-        margin-top: 1px;
         width: 100px;
     }
 }
